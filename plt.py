@@ -71,7 +71,7 @@ class PlotDataReader(object):
         return [th for (_, th) in self.data[key]]
 
 # reader = PlotDataReader("./butterworth_chebyshev.txt")
-reader = PlotDataReader("/Users/tatsumi/Desktop/実験/P3/tex_data/Butterworth_LPF_freq.txt",encoding="shift_jis")
+reader = PlotDataReader("example.txt",encoding="shift_jis")
 # グラフの描画
 
 T = 5000
